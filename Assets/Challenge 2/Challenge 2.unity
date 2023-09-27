@@ -544,6 +544,7 @@ GameObject:
   - component: {fileID: 455978624}
   - component: {fileID: 455978627}
   - component: {fileID: 455978626}
+  - component: {fileID: 455978629}
   m_Layer: 0
   m_Name: Ground
   m_TagString: Untagged
@@ -616,6 +617,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 455978623}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &455978629
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 455978623}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 9.999999, y: 1.0657066, z: 9.999999}
+  m_Center: {x: 0, y: -0.5328533, z: -9.821699e-15}
 --- !u!1001 &460794410
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -670,6 +684,10 @@ PrefabInstance:
     - target: {fileID: 2178073922435996831, guid: 1d143480adadf43389395930eee2b5cf, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6280640533672669555, guid: 1d143480adadf43389395930eee2b5cf, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1d143480adadf43389395930eee2b5cf, type: 3}
@@ -1052,6 +1070,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 274115583751110718, guid: fc41e6839a5494e0cbaea5f0081c271d, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7945815000853930370, guid: fc41e6839a5494e0cbaea5f0081c271d, type: 3}
       propertyPath: m_Name
       value: Ball 3
@@ -1806,6 +1828,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3207698791585606551, guid: a325bcb65fd94414191d0ddc2514e2dc, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4524317531697499686, guid: a325bcb65fd94414191d0ddc2514e2dc, type: 3}
       propertyPath: m_RootOrder
       value: 6
